@@ -1,0 +1,102 @@
+.header { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo{
+	height: 40%;
+	margin-top: 20vh;
+}
+
+.name{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size:100px;
+	color: #5b0f10;
+	letter-spacing: 4px;
+	padding-top: 2%;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+}
+.row{
+	margin:0px;
+}
+.section{
+	width: 100vw;
+	height: 50vh;
+	background-color: #e74c3c;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 100px;
+	color: white;
+}
+
+.sectionheader{
+	margin-top:10vh;
+	margin-bottom: 0;
+}
+
+.small{
+	font-weight: 300;
+	font-size: 25px;
+	color: white;
+}
+
+.faquestion{
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 15px;
+	color: #333333;
+}
+
+.faqanswer{
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 19px;
+	text-align: left;
+	margin-bottom: 15px;
+	color: #68696b;
+}
+.faqindent{
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.sectionbody{
+	max-width: 730px;
+	text-align: left;
+	margin: 0 auto;
+	color: #68696b;
+	padding: 90px 40px;
+	font-family: 'Merriweather', serif;
+}
+
+hr {
+border-bottom: 1px solid #ededed;
+border-top: none;
+border-left: none;
+border-right: none;
+padding: 15px 0 0 0;
+margin-bottom: 15px;
+}
+
+.sponsorinfo{
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 15px;
+	color: #333333;
+	line-height: 1.75;
+}
+
