@@ -6,13 +6,24 @@
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:900,400,300' rel='stylesheet' type='text/css'>
-
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	</head>
+
+	<script type="text/javascript">
+	$(function(){
+	    $(window).scroll(function() {              
+	      $('#log').toggle($(document).scrollTop() > 500);
+	    });
+	})
+	</script>
 	<body>
 		<div class="container header">
 			<div class="row" style="height: 100vh;">
-				 <div class="col-xs-5" style="height: 100vh; background-color: #e74c3c;">
-				 	<center><img style="margin-top: 20vh;" src="img/logo.png"></p></center>
+				 <div class="col-xs-5" style="height: 100vh; background: url(img/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+				 	<center>
+				 		<img style="margin-top: 20vh;" src="img/logo.png">
+					 	<img id="log" style="display:none; background-color: #e74c3c; position: fixed;left: 0px;top: 0px;" src="img/logo.png" width="50px"></p>
+				 	</center>
 
 				  </div>
 					  <div class="col-xs-7">
@@ -31,9 +42,11 @@
 									</div>
 								</a>
 								<div class="col-xs-1"></div>
-								<div class="col-xs-4 button">
-									<center class = "text">Sponsor</center>
-								</div>
+								<a href="sponsors.pdf">
+									<div class="col-xs-4 button">
+										<center class = "text">Sponsor</center>
+									</div>
+								</a>
 							</div>
 						</div>
 					 </div>
@@ -165,12 +178,25 @@
 				<div class="row">
 					<center>
 						<p class="sectionheader">
-							PRIZES
+							JUDGES
 						</p>
 					</center>
-				</div>
 				<div class="row">
-					<center class="small">Check out all the main prizes for the event</center>
+					<center class="small">A panel of industry experts</center>
+				</div>
+				</div>
+			</div>
+			<div class="sectionbody" style="max-width: 80vw">
+				<div class="row">
+					<div class="col-xs-4">
+						<img style="width: 100%" src="img/trophy.png"/>
+					</div>
+					<div class="col-xs-4">
+						<img style="width: 100%" src="img/trophy.png"/>
+					</div>
+					<div class="col-xs-4">
+						<img style="width: 100%" src="img/trophy.png"/>
+					</div>
 				</div>
 			</div>
 		</div>
