@@ -1,6 +1,6 @@
 .header { 
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+/*  background: url(../img/bg.jpg) no-repeat center center fixed; 
+*/  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -32,7 +32,7 @@
 .section{
 	width: 100vw;
 	height: 50vh;
-	background-color: #e74c3c;
+	background-color: #c0392b;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 100px;
@@ -99,4 +99,32 @@ margin-bottom: 15px;
 	color: #333333;
 	line-height: 1.75;
 }
+
+.button {
+	width: 180px;
+	height: 55px;
+	border: 1px solid #000000;
+	background: transparent;
+	padding: 10px 30px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 0px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	margin-top: 10vh;
+}
+.button:hover {
+   background: #e74c3c;
+   color: white;
+   border: none;
+   }
+.button:active {
+   background: #c03a2b;
+   }
+  .text{
+  	margin-top: .5vh;
+  }
+ 
 
