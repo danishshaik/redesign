@@ -103,17 +103,17 @@ margin-bottom: 15px;
 .button {
 	width: 180px;
 	height: 55px;
-	border: 1px solid #000000;
+	border: 1px solid white;
 	background: transparent;
 	padding: 10px 30px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 0px;
-	color: black;
+	color: white;
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	margin-top: 10vh;
+	margin-left: 20vw;
 }
 .button:hover {
    background: #e74c3c;
@@ -127,4 +127,7 @@ margin-bottom: 15px;
   	margin-top: .5vh;
   }
  
+ .judgebio{
+ 	font-size: 20px;
+ }
 
